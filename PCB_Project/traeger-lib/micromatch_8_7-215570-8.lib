@@ -1,0 +1,46 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#(c) SnapEDA 2016 (snapeda.com)
+#This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License (CC BY-SA) with Design Exception 1.0
+#
+# 7-215570-8
+#
+DEF 7-215570-8 P 0 40 Y Y 1 L N
+F0 "P" -200 225 50 H V L BNN
+F1 "7-215570-8" -200 -300 50 H V L BNN
+F2 "TE_7-215570-8" 0 0 50 H I L BNN
+F3 "Good" 0 0 50 H I L BNN "Availability"
+F4 "1.03 USD" 0 0 50 H I L BNN "Price"
+F5 "TE Connectivity / AMP" 0 0 50 H I L BNN "MF"
+F6 "Wire-To-Board Connector, Micro-MaTch Series, IDC / IDT, Plug, 8, 1.27 mm, Tin Plated Contacts" 0 0 50 H I L BNN "Description"
+F7 "7-215570-8" 0 0 50 H I L BNN "MP"
+F8 "None" 0 0 50 H I L BNN "Package"
+DRAW
+P 2 0 0 10 -200 200 -200 150 N
+P 2 0 0 10 -200 150 -200 50 N
+P 2 0 0 10 -200 50 -200 -50 N
+P 2 0 0 10 -200 -50 -200 -150 N
+P 2 0 0 10 -200 -150 -200 -200 N
+P 2 0 0 10 -200 -200 200 -200 N
+P 2 0 0 10 200 -200 200 200 N
+P 2 0 0 10 200 200 -200 200 N
+P 2 0 0 30 -200 150 -150 150 N
+P 2 0 0 30 -200 50 -150 50 N
+P 2 0 0 30 -200 -50 -150 -50 N
+P 2 0 0 30 -200 -150 -150 -150 N
+P 2 0 0 30 150 150 200 150 N
+P 2 0 0 30 150 50 200 50 N
+P 2 0 0 30 150 -50 200 -50 N
+P 2 0 0 30 150 -150 200 -150 N
+X 1 1 -400 150 200 R 40 40 0 0 P 
+X 3 3 -400 50 200 R 40 40 0 0 P 
+X 5 5 -400 -50 200 R 40 40 0 0 P 
+X 7 7 -400 -150 200 R 40 40 0 0 P 
+X 2 2 400 150 200 L 40 40 0 0 P 
+X 4 4 400 50 200 L 40 40 0 0 P 
+X 6 6 400 -50 200 L 40 40 0 0 P 
+X 8 8 400 -150 200 L 40 40 0 0 P 
+ENDDRAW
+ENDDEF
+#
+# End Library

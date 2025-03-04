@@ -1,0 +1,86 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "Analyze VHDL with GHDL",
+            "type": "shell",
+            "command": "ghdl",
+            "args": [
+                "-a",
+                //"-I${cwd}",
+                //"-P${pwd}",  // Specify the path to your VHDL source files directory
+                "crc_generator.vhd", 
+                "msg_composer.vhd", 
+                "msg_interpreter.vhd", 
+                "msg_separator.vhd", 
+                "sender_modul.vhd", 
+                "serial_reciever.vhd", 
+                "serial_sender.vhd", 
+                "state_logic.vhd", 
+                "top.vhd"
+            ],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "problemMatcher": []
+        },
+        {
+            "label": "Elaborate VHDL with GHDL",
+            "type": "shell",
+            "command": "ghdl",
+            "args": [
+                "-e", "TOP" // Replace with your actual top-level entity
+            ],
+            "group": "build",
+            "problemMatcher": []
+        },
+        {
+            "label": "Synthesize VHDL with Yosys-GHDL",
+            "type": "shell",
+            "command": "yosys",
+            "args": [
+                "-m", "ghdl",
+                "-p", "ghdl crc_generator.vhd, msg_composer.vhd, msg_interpreter.vhd, msg_separator.vhd, sender_modul.vhd, serial_reciever.vhd, serial_sender.vhd, state_logic.vhd, top.vhd -e TOP; synth -top TOP; write_json synthesized_netlist.json"
+            ],
+            "group": "build",
+            "problemMatcher": []
+        },
+        {
+            "label": "Place and Route with nextpnr-gowin",
+            "type": "shell",
+            "command": "nextpnr-gowin",
+            "args": [
+                "--device", "GW1NZ-LV1QN48C6/I5",
+                "--json", "synthesized_netlist.json",
+                "--cst", "top.cst",
+                //"--fasm", "placed_and_routed.fasm"
+            ],
+            "group": "build",
+            "problemMatcher": []
+        },
+        {
+            "label": "Generate Bitstream with gowin_pack",
+            "type": "shell",
+            "command": "gowin_pack",
+            "args": [
+                "-d", "GW1NZ-LV1QN48C6/I5",
+                "placed_and_routed.fasm",
+                "bitstream.fs"
+            ],
+            "group": "build",
+            "problemMatcher": []
+        },
+        {
+            "label": "Program FPGA with openFPGALoader",
+            "type": "shell",
+            "command": "openFPGALoader",
+            "args": [
+                "-b", "tangnano", // Tang Nano 1K board
+                "bitstream.fs"
+            ],
+            "group": "build",
+            "problemMatcher": []
+        }
+    ]
+}

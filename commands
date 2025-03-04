@@ -1,0 +1,2 @@
+export PATH=$PATH:/home/jam/oss-cad-suite/bin:$PATH
+source /home/jam/oss-cad-suite/environment

@@ -1,0 +1,106 @@
+GowinSynthesis start
+Running parser ...
+Analyzing VHDL file '/home/jam/Downloads/kikad/solution/code_project/gowin/fpga_project/src/crc_generator.vhd'
+Analyzing entity 'crc_generator'("/home/jam/Downloads/kikad/solution/code_project/gowin/fpga_project/src/crc_generator.vhd":5)
+Analyzing architecture 'rtl'("/home/jam/Downloads/kikad/solution/code_project/gowin/fpga_project/src/crc_generator.vhd":17)
+Analyzing VHDL file '/home/jam/Downloads/kikad/solution/code_project/gowin/fpga_project/src/msg_composer.vhd'
+Analyzing entity 'msg_composer'("/home/jam/Downloads/kikad/solution/code_project/gowin/fpga_project/src/msg_composer.vhd":5)
+Analyzing architecture 'rtl'("/home/jam/Downloads/kikad/solution/code_project/gowin/fpga_project/src/msg_composer.vhd":17)
+Analyzing VHDL file '/home/jam/Downloads/kikad/solution/code_project/gowin/fpga_project/src/msg_interpreter.vhd'
+Analyzing entity 'msg_interpreter'("/home/jam/Downloads/kikad/solution/code_project/gowin/fpga_project/src/msg_interpreter.vhd":5)
+Analyzing architecture 'rtl'("/home/jam/Downloads/kikad/solution/code_project/gowin/fpga_project/src/msg_interpreter.vhd":18)
+Analyzing VHDL file '/home/jam/Downloads/kikad/solution/code_project/gowin/fpga_project/src/msg_separator.vhd'
+Analyzing entity 'msg_separator'("/home/jam/Downloads/kikad/solution/code_project/gowin/fpga_project/src/msg_separator.vhd":5)
+Analyzing architecture 'rtl'("/home/jam/Downloads/kikad/solution/code_project/gowin/fpga_project/src/msg_separator.vhd":21)
+Analyzing VHDL file '/home/jam/Downloads/kikad/solution/code_project/gowin/fpga_project/src/sender_modul.vhd'
+Analyzing entity 'sender_modul'("/home/jam/Downloads/kikad/solution/code_project/gowin/fpga_project/src/sender_modul.vhd":5)
+Analyzing architecture 'rtl'("/home/jam/Downloads/kikad/solution/code_project/gowin/fpga_project/src/sender_modul.vhd":18)
+Analyzing VHDL file '/home/jam/Downloads/kikad/solution/code_project/gowin/fpga_project/src/serial_reciever.vhd'
+Analyzing entity 'serial_reciever'("/home/jam/Downloads/kikad/solution/code_project/gowin/fpga_project/src/serial_reciever.vhd":5)
+Analyzing architecture 'rtl'("/home/jam/Downloads/kikad/solution/code_project/gowin/fpga_project/src/serial_reciever.vhd":20)
+Analyzing VHDL file '/home/jam/Downloads/kikad/solution/code_project/gowin/fpga_project/src/serial_sender.vhd'
+Analyzing entity 'serial_sender'("/home/jam/Downloads/kikad/solution/code_project/gowin/fpga_project/src/serial_sender.vhd":5)
+Analyzing architecture 'rtl'("/home/jam/Downloads/kikad/solution/code_project/gowin/fpga_project/src/serial_sender.vhd":21)
+Analyzing VHDL file '/home/jam/Downloads/kikad/solution/code_project/gowin/fpga_project/src/state_logic.vhd'
+Analyzing entity 'state_logic'("/home/jam/Downloads/kikad/solution/code_project/gowin/fpga_project/src/state_logic.vhd":5)
+Analyzing architecture 'rtl'("/home/jam/Downloads/kikad/solution/code_project/gowin/fpga_project/src/state_logic.vhd":24)
+Analyzing VHDL file '/home/jam/Downloads/kikad/solution/code_project/gowin/fpga_project/src/top.vhd'
+Analyzing entity 'top'("/home/jam/Downloads/kikad/solution/code_project/gowin/fpga_project/src/top.vhd":7)
+Analyzing architecture 'rtl'("/home/jam/Downloads/kikad/solution/code_project/gowin/fpga_project/src/top.vhd":25)
+Processing 'TOP(rtl)'("/home/jam/Downloads/kikad/solution/code_project/gowin/fpga_project/src/top.vhd":7)
+WARN  (EX4206) : Using initial value for 'slave_address' since it is never assigned("/home/jam/Downloads/kikad/solution/code_project/gowin/fpga_project/src/top.vhd":26)
+WARN  (EX4206) : Using initial value for 'master_address' since it is never assigned("/home/jam/Downloads/kikad/solution/code_project/gowin/fpga_project/src/top.vhd":27)
+Processing 'SERIAL_RECIEVER(clks_per_bit=2813)(rtl)'("/home/jam/Downloads/kikad/solution/code_project/gowin/fpga_project/src/serial_reciever.vhd":5)
+Processing 'SENDER_MODUL(rtl)'("/home/jam/Downloads/kikad/solution/code_project/gowin/fpga_project/src/sender_modul.vhd":5)
+Processing 'MSG_COMPOSER(rtl)'("/home/jam/Downloads/kikad/solution/code_project/gowin/fpga_project/src/msg_composer.vhd":5)
+Processing 'CRC_GENERATOR(rtl)'("/home/jam/Downloads/kikad/solution/code_project/gowin/fpga_project/src/crc_generator.vhd":5)
+WARN  (EX4206) : Using initial value for 'polynom' since it is never assigned("/home/jam/Downloads/kikad/solution/code_project/gowin/fpga_project/src/crc_generator.vhd":18)
+WARN  (EX4206) : Using initial value for 'msg_0' since it is never assigned("/home/jam/Downloads/kikad/solution/code_project/gowin/fpga_project/src/crc_generator.vhd":34)
+WARN  (EX4206) : Using initial value for 'msg_1' since it is never assigned("/home/jam/Downloads/kikad/solution/code_project/gowin/fpga_project/src/crc_generator.vhd":35)
+WARN  (EX4206) : Using initial value for 'msg_2' since it is never assigned("/home/jam/Downloads/kikad/solution/code_project/gowin/fpga_project/src/crc_generator.vhd":36)
+WARN  (EX4206) : Using initial value for 'msg_3' since it is never assigned("/home/jam/Downloads/kikad/solution/code_project/gowin/fpga_project/src/crc_generator.vhd":37)
+WARN  (EX4206) : Using initial value for 'msg_4' since it is never assigned("/home/jam/Downloads/kikad/solution/code_project/gowin/fpga_project/src/crc_generator.vhd":38)
+WARN  (EX4206) : Using initial value for 'msg_5' since it is never assigned("/home/jam/Downloads/kikad/solution/code_project/gowin/fpga_project/src/crc_generator.vhd":39)
+WARN  (EX4206) : Using initial value for 'msg_6' since it is never assigned("/home/jam/Downloads/kikad/solution/code_project/gowin/fpga_project/src/crc_generator.vhd":40)
+WARN  (EX4206) : Using initial value for 'msg_7' since it is never assigned("/home/jam/Downloads/kikad/solution/code_project/gowin/fpga_project/src/crc_generator.vhd":41)
+WARN  (EX4206) : Using initial value for 'msg_8' since it is never assigned("/home/jam/Downloads/kikad/solution/code_project/gowin/fpga_project/src/crc_generator.vhd":42)
+WARN  (EX4206) : Using initial value for 'msg_9' since it is never assigned("/home/jam/Downloads/kikad/solution/code_project/gowin/fpga_project/src/crc_generator.vhd":43)
+WARN  (EX4206) : Using initial value for 'msg_a' since it is never assigned("/home/jam/Downloads/kikad/solution/code_project/gowin/fpga_project/src/crc_generator.vhd":44)
+WARN  (EX4206) : Using initial value for 'msg_b' since it is never assigned("/home/jam/Downloads/kikad/solution/code_project/gowin/fpga_project/src/crc_generator.vhd":45)
+WARN  (EX4206) : Using initial value for 'msg_c' since it is never assigned("/home/jam/Downloads/kikad/solution/code_project/gowin/fpga_project/src/crc_generator.vhd":46)
+WARN  (EX4206) : Using initial value for 'msg_d' since it is never assigned("/home/jam/Downloads/kikad/solution/code_project/gowin/fpga_project/src/crc_generator.vhd":47)
+WARN  (EX4206) : Using initial value for 'msg_e' since it is never assigned("/home/jam/Downloads/kikad/solution/code_project/gowin/fpga_project/src/crc_generator.vhd":48)
+WARN  (EX4206) : Using initial value for 'msg_f' since it is never assigned("/home/jam/Downloads/kikad/solution/code_project/gowin/fpga_project/src/crc_generator.vhd":49)
+Processing 'SERIAL_SENDER(rtl)'("/home/jam/Downloads/kikad/solution/code_project/gowin/fpga_project/src/serial_sender.vhd":5)
+Processing 'MSG_SEPARATOR(rtl)'("/home/jam/Downloads/kikad/solution/code_project/gowin/fpga_project/src/msg_separator.vhd":5)
+WARN  (EX4206) : Using initial value for 'cr_ref' since it is never assigned("/home/jam/Downloads/kikad/solution/code_project/gowin/fpga_project/src/msg_separator.vhd":36)
+Processing 'STATE_LOGIC(rtl)'("/home/jam/Downloads/kikad/solution/code_project/gowin/fpga_project/src/state_logic.vhd":5)
+Processing 'MSG_INTERPRETER(rtl)'("/home/jam/Downloads/kikad/solution/code_project/gowin/fpga_project/src/msg_interpreter.vhd":5)
+WARN  (EX4206) : Using initial value for 's_activate_relay' since it is never assigned("/home/jam/Downloads/kikad/solution/code_project/gowin/fpga_project/src/msg_interpreter.vhd":23)
+WARN  (EX4206) : Using initial value for 'c_deactivate_relay' since it is never assigned("/home/jam/Downloads/kikad/solution/code_project/gowin/fpga_project/src/msg_interpreter.vhd":24)
+WARN  (EX4206) : Using initial value for 't_toggle_relay' since it is never assigned("/home/jam/Downloads/kikad/solution/code_project/gowin/fpga_project/src/msg_interpreter.vhd":25)
+WARN  (EX4206) : Using initial value for 'g_return_state' since it is never assigned("/home/jam/Downloads/kikad/solution/code_project/gowin/fpga_project/src/msg_interpreter.vhd":26)
+WARN  (EX4206) : Using initial value for 'msg_0' since it is never assigned("/home/jam/Downloads/kikad/solution/code_project/gowin/fpga_project/src/msg_interpreter.vhd":30)
+WARN  (EX4206) : Using initial value for 'msg_1' since it is never assigned("/home/jam/Downloads/kikad/solution/code_project/gowin/fpga_project/src/msg_interpreter.vhd":31)
+WARN  (EX4206) : Using initial value for 'msg_2' since it is never assigned("/home/jam/Downloads/kikad/solution/code_project/gowin/fpga_project/src/msg_interpreter.vhd":32)
+WARN  (EX4206) : Using initial value for 'msg_3' since it is never assigned("/home/jam/Downloads/kikad/solution/code_project/gowin/fpga_project/src/msg_interpreter.vhd":33)
+WARN  (EX4206) : Using initial value for 'msg_4' since it is never assigned("/home/jam/Downloads/kikad/solution/code_project/gowin/fpga_project/src/msg_interpreter.vhd":34)
+WARN  (EX4206) : Using initial value for 'msg_5' since it is never assigned("/home/jam/Downloads/kikad/solution/code_project/gowin/fpga_project/src/msg_interpreter.vhd":35)
+WARN  (EX4206) : Using initial value for 'msg_6' since it is never assigned("/home/jam/Downloads/kikad/solution/code_project/gowin/fpga_project/src/msg_interpreter.vhd":36)
+WARN  (EX4206) : Using initial value for 'msg_7' since it is never assigned("/home/jam/Downloads/kikad/solution/code_project/gowin/fpga_project/src/msg_interpreter.vhd":37)
+WARN  (EX4206) : Using initial value for 'msg_8' since it is never assigned("/home/jam/Downloads/kikad/solution/code_project/gowin/fpga_project/src/msg_interpreter.vhd":38)
+WARN  (EX4206) : Using initial value for 'msg_9' since it is never assigned("/home/jam/Downloads/kikad/solution/code_project/gowin/fpga_project/src/msg_interpreter.vhd":39)
+WARN  (EX4206) : Using initial value for 'msg_a' since it is never assigned("/home/jam/Downloads/kikad/solution/code_project/gowin/fpga_project/src/msg_interpreter.vhd":40)
+WARN  (EX4206) : Using initial value for 'msg_b' since it is never assigned("/home/jam/Downloads/kikad/solution/code_project/gowin/fpga_project/src/msg_interpreter.vhd":41)
+WARN  (EX4206) : Using initial value for 'msg_c' since it is never assigned("/home/jam/Downloads/kikad/solution/code_project/gowin/fpga_project/src/msg_interpreter.vhd":42)
+WARN  (EX4206) : Using initial value for 'msg_d' since it is never assigned("/home/jam/Downloads/kikad/solution/code_project/gowin/fpga_project/src/msg_interpreter.vhd":43)
+WARN  (EX4206) : Using initial value for 'msg_e' since it is never assigned("/home/jam/Downloads/kikad/solution/code_project/gowin/fpga_project/src/msg_interpreter.vhd":44)
+WARN  (EX4206) : Using initial value for 'msg_f' since it is never assigned("/home/jam/Downloads/kikad/solution/code_project/gowin/fpga_project/src/msg_interpreter.vhd":45)
+WARN  (EX4206) : Using initial value for 'msg_la' since it is never assigned("/home/jam/Downloads/kikad/solution/code_project/gowin/fpga_project/src/msg_interpreter.vhd":46)
+WARN  (EX4206) : Using initial value for 'msg_lb' since it is never assigned("/home/jam/Downloads/kikad/solution/code_project/gowin/fpga_project/src/msg_interpreter.vhd":47)
+WARN  (EX4206) : Using initial value for 'msg_lc' since it is never assigned("/home/jam/Downloads/kikad/solution/code_project/gowin/fpga_project/src/msg_interpreter.vhd":48)
+WARN  (EX4206) : Using initial value for 'msg_ld' since it is never assigned("/home/jam/Downloads/kikad/solution/code_project/gowin/fpga_project/src/msg_interpreter.vhd":49)
+WARN  (EX4206) : Using initial value for 'msg_le' since it is never assigned("/home/jam/Downloads/kikad/solution/code_project/gowin/fpga_project/src/msg_interpreter.vhd":50)
+WARN  (EX4206) : Using initial value for 'msg_lf' since it is never assigned("/home/jam/Downloads/kikad/solution/code_project/gowin/fpga_project/src/msg_interpreter.vhd":51)
+'others' clause is never selected("/home/jam/Downloads/kikad/solution/code_project/gowin/fpga_project/src/top.vhd":343)
+NOTE  (EX0101) : Current top module is "TOP"
+WARN  (EX0211) : The output port "out_e2_signal" of module "STATE_LOGIC" has no driver, assigning undriven bits to Z, simulation mismatch possible("/home/jam/Downloads/kikad/solution/code_project/gowin/fpga_project/src/state_logic.vhd":19)
+[5%] Running netlist conversion ...
+Running device independent optimization ...
+[10%] Optimizing Phase 0 completed
+[15%] Optimizing Phase 1 completed
+[25%] Optimizing Phase 2 completed
+Running inference ...
+[30%] Inferring Phase 0 completed
+[40%] Inferring Phase 1 completed
+[50%] Inferring Phase 2 completed
+[55%] Inferring Phase 3 completed
+Running technical mapping ...
+[60%] Tech-Mapping Phase 0 completed
+[65%] Tech-Mapping Phase 1 completed
+[75%] Tech-Mapping Phase 2 completed
+[80%] Tech-Mapping Phase 3 completed
+[90%] Tech-Mapping Phase 4 completed
+[95%] Generate netlist file "/home/jam/Downloads/kikad/solution/code_project/gowin/fpga_project/impl/gwsynthesis/fpga_project.vg" completed
+[100%] Generate report file "/home/jam/Downloads/kikad/solution/code_project/gowin/fpga_project/impl/gwsynthesis/fpga_project_syn.rpt.html" completed
+GowinSynthesis finish

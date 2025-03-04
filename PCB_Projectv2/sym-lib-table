@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name "CDSOT23-SM712")(type "Legacy")(uri "${KIPRJMOD}/CDSOT23-SM712.lib")(options "")(descr ""))
+)

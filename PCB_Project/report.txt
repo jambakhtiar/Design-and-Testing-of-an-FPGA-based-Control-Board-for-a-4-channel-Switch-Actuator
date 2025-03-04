@@ -1,0 +1,117 @@
+Info: Processing symbol 'J3:Connector_PinSocket_2.54mm:PinSocket_1x05_P2.54mm_Vertical'.
+Info: Processing symbol 'J8:Connector_PinSocket_2.54mm:PinSocket_1x05_P2.54mm_Vertical'.
+Info: Processing symbol 'J9:traeger:micromatch_2x3pol'.
+Info: Processing symbol 'C1:Capacitor_SMD:CP_Elec_5x5.3'.
+Info: Processing symbol 'L1:Inductor_THT:L_Radial_D8.7mm_P5.00mm_Fastron_07HCP'.
+Info: Processing symbol 'J6:Connector_PinSocket_2.54mm:PinSocket_1x20_P2.54mm_Vertical'.
+Info: Processing symbol 'J7:Connector_PinSocket_2.54mm:PinSocket_1x20_P2.54mm_Vertical'.
+Info: Processing symbol 'J5:Connector_PinSocket_2.54mm:PinSocket_1x05_P2.54mm_Vertical'.
+Info: Processing symbol 'R1:Resistor_SMD:R_0805_2012Metric'.
+Info: Processing symbol 'J4:TerminalBlock:TerminalBlock_bornier-2_P5.08mm'.
+Info: Processing symbol 'SW1:Button_Switch_THT:SW_PUSH_6mm'.
+Info: Processing symbol 'J2:TerminalBlock:TerminalBlock_bornier-2_P5.08mm'.
+Info: Processing symbol 'J1:Connector_PinSocket_2.54mm:PinSocket_1x06_P2.54mm_Vertical'.
+Info: Processing symbol 'U1:Converter_DCDC:Converter_DCDC_TRACO_TSR-1_THT'.
+Info: Processing symbol 'D1:traeger:SOT-23-3'.
+Info: Processing symbol 'C3:Capacitor_Tantalum_SMD:CP_EIA-1608-08_AVX-J'.
+Info: Processing symbol 'U2:traeger:SOIC127P600X175-8N'.
+Info: Processing symbol 'C2:Capacitor_SMD:CP_Elec_5x5.3'.
+Add net unconnected-(J7-Pad6).
+Connected J7 pin 7 to unconnected-(J7-Pad7).
+Add net unconnected-(J7-Pad7).
+Connected J7 pin 6 to unconnected-(J7-Pad6).
+Add net unconnected-(J7-Pad8).
+Connected J7 pin 12 to unconnected-(J7-Pad12).
+Connected J7 pin 8 to unconnected-(J7-Pad8).
+Connected J7 pin 9 to unconnected-(J7-Pad9).
+Connected J7 pin 10 to unconnected-(J7-Pad10).
+Connected J7 pin 11 to unconnected-(J7-Pad11).
+Add net unconnected-(J7-Pad17).
+Connected J7 pin 5 to unconnected-(J7-Pad5).
+Add net unconnected-(J7-Pad5).
+Connected J7 pin 4 to unconnected-(J7-Pad4).
+Add net unconnected-(J7-Pad4).
+Connected J7 pin 3 to unconnected-(J7-Pad3).
+Add net unconnected-(J7-Pad3).
+Connected J7 pin 2 to unconnected-(J7-Pad2).
+Add net unconnected-(J7-Pad2).
+Connected J7 pin 1 to unconnected-(J7-Pad1).
+Add net unconnected-(J7-Pad1).
+Updated J7 properties.
+Connected J7 pin 18 to unconnected-(J7-Pad18).
+Updated U2 properties.
+Updated U1 properties.
+Updated SW1 properties.
+Updated R1 properties.
+Updated L1 properties.
+Updated J9 properties.
+Updated J8 properties.
+Connected J7 pin 20 to unconnected-(J7-Pad20).
+Add net unconnected-(J7-Pad20).
+Connected J7 pin 19 to unconnected-(J7-Pad19).
+Add net unconnected-(J7-Pad19).
+Add net unconnected-(J7-Pad13).
+Add net unconnected-(J7-Pad18).
+Connected J7 pin 17 to unconnected-(J7-Pad17).
+Connected J6 pin 20 to unconnected-(J6-Pad20).
+Connected J7 pin 16 to unconnected-(J7-Pad16).
+Add net unconnected-(J7-Pad16).
+Connected J7 pin 15 to unconnected-(J7-Pad15).
+Add net unconnected-(J7-Pad15).
+Connected J7 pin 14 to unconnected-(J7-Pad14).
+Add net unconnected-(J7-Pad14).
+Connected J7 pin 13 to unconnected-(J7-Pad13).
+Updated J6 symbol association from  to /724a0c30-3eea-4b03-bc7e-9b1e80ac104d.
+Add net unconnected-(J6-Pad9).
+Connected J6 pin 8 to unconnected-(J6-Pad8).
+Connected J6 pin 7 to unconnected-(J6-Pad7).
+Connected J6 pin 6 to unconnected-(J6-Pad6).
+Connected J6 pin 5 to unconnected-(J6-Pad5).
+Connected J6 pin 4 to unconnected-(J6-Pad4).
+Connected J6 pin 3 to unconnected-(J6-Pad3).
+Connected J6 pin 2 to unconnected-(J6-Pad2).
+Add net unconnected-(J6-Pad2).
+Connected J6 pin 1 to unconnected-(J6-Pad1).
+Add net unconnected-(J6-Pad1).
+Updated J6 properties.
+Connected J6 pin 9 to unconnected-(J6-Pad9).
+Changed J6 value from PinSocket_1x20_P2.54mm_Vertical to FPGA_ConnL.
+Changed REF** reference designator to J6.
+Added J6 (footprint 'Connector_PinSocket_2.54mm:PinSocket_1x20_P2.54mm_Vertical').
+Updated J5 properties.
+Updated J4 properties.
+Updated J3 properties.
+Updated J2 properties.
+Updated J1 properties.
+Updated D1 properties.
+Updated C3 properties.
+Updated C2 properties.
+Updated C1 properties.
+Connected J6 pin 15 to unconnected-(J6-Pad15).
+Changed J7 value from PinSocket_1x20_P2.54mm_Vertical to FPGA_connR.
+Changed REF** reference designator to J7.
+Added J7 (footprint 'Connector_PinSocket_2.54mm:PinSocket_1x20_P2.54mm_Vertical').
+Add net unconnected-(J6-Pad20).
+Connected J6 pin 19 to unconnected-(J6-Pad19).
+Add net unconnected-(J6-Pad19).
+Connected J6 pin 18 to unconnected-(J6-Pad18).
+Add net unconnected-(J6-Pad18).
+Connected J6 pin 17 to unconnected-(J6-Pad17).
+Add net unconnected-(J6-Pad17).
+Connected J6 pin 16 to unconnected-(J6-Pad16).
+Add net unconnected-(J6-Pad16).
+Updated J7 symbol association from  to /1cd08355-701e-4fba-886f-d48517dcccf5.
+Add net unconnected-(J6-Pad15).
+Connected J6 pin 14 to unconnected-(J6-Pad14).
+Add net unconnected-(J6-Pad14).
+Connected J6 pin 13 to unconnected-(J6-Pad13).
+Add net unconnected-(J6-Pad13).
+Connected J6 pin 12 to unconnected-(J6-Pad12).
+Add net unconnected-(J6-Pad12).
+Connected J6 pin 11 to unconnected-(J6-Pad11).
+Add net unconnected-(J6-Pad11).
+Connected J6 pin 10 to unconnected-(J6-Pad10).
+Add net unconnected-(J6-Pad10).
+
+
+Info: Total warnings: 0, errors: 0.

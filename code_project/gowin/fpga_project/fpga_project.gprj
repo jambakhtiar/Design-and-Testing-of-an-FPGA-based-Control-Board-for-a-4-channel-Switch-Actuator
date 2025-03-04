@@ -1,0 +1,19 @@
+<?xml version="1" encoding="UTF-8"?>
+<!DOCTYPE gowin-fpga-project>
+<Project>
+    <Template>FPGA</Template>
+    <Version>5</Version>
+    <Device name="GW1NZ-1" pn="GW1NZ-LV1QN48C6/I5">gw1nz1-015</Device>
+    <FileList>
+        <File path="src/crc_generator.vhd" type="file.vhdl" enable="1"/>
+        <File path="src/msg_composer.vhd" type="file.vhdl" enable="1"/>
+        <File path="src/msg_interpreter.vhd" type="file.vhdl" enable="1"/>
+        <File path="src/msg_separator.vhd" type="file.vhdl" enable="1"/>
+        <File path="src/sender_modul.vhd" type="file.vhdl" enable="1"/>
+        <File path="src/serial_reciever.vhd" type="file.vhdl" enable="1"/>
+        <File path="src/serial_sender.vhd" type="file.vhdl" enable="1"/>
+        <File path="src/state_logic.vhd" type="file.vhdl" enable="1"/>
+        <File path="src/top.vhd" type="file.vhdl" enable="1"/>
+        <File path="src/fpga_project.cst" type="file.cst" enable="1"/>
+    </FileList>
+</Project>

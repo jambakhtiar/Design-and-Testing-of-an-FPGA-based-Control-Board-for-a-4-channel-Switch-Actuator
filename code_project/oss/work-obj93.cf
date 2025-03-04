@@ -1,0 +1,28 @@
+v 4
+file . "top.vhd" "dd66e51934aa52f58184e64d473d095c62a3fbfa" "20240709135556.846":
+  entity top at 1( 0) + 0 on 381;
+  architecture rtl of top at 25( 649) + 0 on 382;
+file . "crc_generator.vhd" "75cbecf000a7fb971877e30dd077686ef56c7cb2" "20240709135555.640":
+  entity crc_generator at 1( 0) + 0 on 365;
+  architecture rtl of crc_generator at 17( 473) + 0 on 366;
+file . "msg_composer.vhd" "7e449733944f3f76c1e88bf6330f6d5bd9ea9cd3" "20240709135555.947":
+  entity msg_composer at 1( 0) + 0 on 367;
+  architecture rtl of msg_composer at 17( 459) + 0 on 368;
+file . "msg_interpreter.vhd" "d31f855364c8ac14977904ff4d80d81e084ef4be" "20240709135556.028":
+  entity msg_interpreter at 1( 0) + 0 on 369;
+  architecture rtl of msg_interpreter at 18( 451) + 0 on 370;
+file . "msg_separator.vhd" "29f3f4fee80297fc3eb59ae179155b922c1dc284" "20240709135556.367":
+  entity msg_separator at 1( 0) + 0 on 371;
+  architecture rtl of msg_separator at 21( 568) + 0 on 372;
+file . "sender_modul.vhd" "d35928948b2994da52fadee7ff1ccba2509d103d" "20240709135556.493":
+  entity sender_modul at 1( 0) + 0 on 373;
+  architecture rtl of sender_modul at 18( 482) + 0 on 374;
+file . "serial_reciever.vhd" "798a6cb312258b799f99d1c5e0025e049afdeb17" "20240709135556.558":
+  entity serial_reciever at 1( 0) + 0 on 375;
+  architecture rtl of serial_reciever at 20( 457) + 0 on 376;
+file . "serial_sender.vhd" "962b7f75b80a3cb94722a28045ea1ffc2f6e0d1c" "20240709135556.625":
+  entity serial_sender at 1( 0) + 0 on 377;
+  architecture rtl of serial_sender at 21( 481) + 0 on 378;
+file . "state_logic.vhd" "4ba85f4158f67c89d93181ffc16bc3533bcfbd07" "20240709135556.777":
+  entity state_logic at 1( 0) + 0 on 379;
+  architecture rtl of state_logic at 24( 688) + 0 on 380;

@@ -1,0 +1,90 @@
+[
+ {
+  "InstFile" : "/home/jam/Downloads/kikad/solution/code_project/gowin/fpga_project/src/top.vhd",
+  "InstLine" : 7,
+  "InstName" : "TOP",
+  "ModuleFile" : "/home/jam/Downloads/kikad/solution/code_project/gowin/fpga_project/src/top.vhd",
+  "ModuleLine" : 7,
+  "ModuleName" : "TOP",
+  "SubInsts" : [
+   {
+    "InstFile" : "/home/jam/Downloads/kikad/solution/code_project/gowin/fpga_project/src/top.vhd",
+    "InstLine" : 169,
+    "InstName" : "reciever",
+    "ModuleFile" : "/home/jam/Downloads/kikad/solution/code_project/gowin/fpga_project/src/serial_reciever.vhd",
+    "ModuleLine" : 5,
+    "ModuleName" : "SERIAL_RECIEVER"
+   },
+   {
+    "InstFile" : "/home/jam/Downloads/kikad/solution/code_project/gowin/fpga_project/src/top.vhd",
+    "InstLine" : 174,
+    "InstName" : "sender",
+    "ModuleFile" : "/home/jam/Downloads/kikad/solution/code_project/gowin/fpga_project/src/sender_modul.vhd",
+    "ModuleLine" : 5,
+    "ModuleName" : "SENDER_MODUL",
+    "SubInsts" : [
+     {
+      "InstFile" : "/home/jam/Downloads/kikad/solution/code_project/gowin/fpga_project/src/sender_modul.vhd",
+      "InstLine" : 54,
+      "InstName" : "composer",
+      "ModuleFile" : "/home/jam/Downloads/kikad/solution/code_project/gowin/fpga_project/src/msg_composer.vhd",
+      "ModuleLine" : 5,
+      "ModuleName" : "MSG_COMPOSER",
+      "SubInsts" : [
+       {
+        "InstFile" : "/home/jam/Downloads/kikad/solution/code_project/gowin/fpga_project/src/msg_composer.vhd",
+        "InstLine" : 41,
+        "InstName" : "crc_gen_out",
+        "ModuleFile" : "/home/jam/Downloads/kikad/solution/code_project/gowin/fpga_project/src/crc_generator.vhd",
+        "ModuleLine" : 5,
+        "ModuleName" : "CRC_GENERATOR"
+       }
+      ]
+     },
+     {
+      "InstFile" : "/home/jam/Downloads/kikad/solution/code_project/gowin/fpga_project/src/sender_modul.vhd",
+      "InstLine" : 65,
+      "InstName" : "sender",
+      "ModuleFile" : "/home/jam/Downloads/kikad/solution/code_project/gowin/fpga_project/src/serial_sender.vhd",
+      "ModuleLine" : 5,
+      "ModuleName" : "SERIAL_SENDER"
+     }
+    ]
+   },
+   {
+    "InstFile" : "/home/jam/Downloads/kikad/solution/code_project/gowin/fpga_project/src/top.vhd",
+    "InstLine" : 184,
+    "InstName" : "separator",
+    "ModuleFile" : "/home/jam/Downloads/kikad/solution/code_project/gowin/fpga_project/src/msg_separator.vhd",
+    "ModuleLine" : 5,
+    "ModuleName" : "MSG_SEPARATOR"
+   },
+   {
+    "InstFile" : "/home/jam/Downloads/kikad/solution/code_project/gowin/fpga_project/src/top.vhd",
+    "InstLine" : 196,
+    "InstName" : "crc_gen",
+    "ModuleFile" : "/home/jam/Downloads/kikad/solution/code_project/gowin/fpga_project/src/crc_generator.vhd",
+    "ModuleLine" : 5,
+    "ModuleName" : "CRC_GENERATOR"
+   },
+   {
+    "InstFile" : "/home/jam/Downloads/kikad/solution/code_project/gowin/fpga_project/src/top.vhd",
+    "InstLine" : 204,
+    "InstName" : "logic",
+    "ModuleFile" : "/home/jam/Downloads/kikad/solution/code_project/gowin/fpga_project/src/state_logic.vhd",
+    "ModuleLine" : 5,
+    "ModuleName" : "STATE_LOGIC",
+    "SubInsts" : [
+     {
+      "InstFile" : "/home/jam/Downloads/kikad/solution/code_project/gowin/fpga_project/src/state_logic.vhd",
+      "InstLine" : 46,
+      "InstName" : "interpreter",
+      "ModuleFile" : "/home/jam/Downloads/kikad/solution/code_project/gowin/fpga_project/src/msg_interpreter.vhd",
+      "ModuleLine" : 5,
+      "ModuleName" : "MSG_INTERPRETER"
+     }
+    ]
+   }
+  ]
+ }
+]

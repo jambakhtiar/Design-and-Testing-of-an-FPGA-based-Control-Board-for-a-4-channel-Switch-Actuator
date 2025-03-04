@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Module name="TOP" Register="42" Lut="160" T_Register="730(42)" T_Lut="988(160)">
+ <SubModule name="reciever" Register="26" Lut="53" T_Register="26(26)" T_Lut="53(53)"/>
+ <SubModule name="sender" Register="4" Lut="6" T_Register="316(4)" T_Lut="340(6)">
+  <SubModule name="composer" Register="70" Lut="7" T_Register="239(70)" T_Lut="243(7)">
+   <SubModule name="crc_gen_out" Register="169" Lut="236" T_Register="169(169)" T_Lut="236(236)"/>
+  </SubModule>
+  <SubModule name="sender" Register="73" Lut="91" T_Register="73(73)" T_Lut="91(91)"/>
+ </SubModule>
+ <SubModule name="separator" Register="133" Lut="55" T_Register="133(133)" T_Lut="55(55)"/>
+ <SubModule name="crc_gen" Register="169" Lut="256" T_Register="169(169)" T_Lut="256(256)"/>
+ <SubModule name="logic" Register="32" Lut="58" T_Register="44(32)" T_Lut="124(58)">
+  <SubModule name="interpreter" Register="12" Lut="66" T_Register="12(12)" T_Lut="66(66)"/>
+ </SubModule>
+</Module>

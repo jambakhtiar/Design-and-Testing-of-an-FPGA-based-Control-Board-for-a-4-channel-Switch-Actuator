@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE gowin-synthesis-project>
+<Project>
+    <Version>beta</Version>
+    <Device id="GW1NZ-1" package="QFN48" speed="6" partNumber="GW1NZ-LV1QN48C6/I5"/>
+    <FileList>
+        <File path="/home/jam/Downloads/kikad/solution/code_project/gowin/fpga_project/src/crc_generator.vhd" type="vhdl"/>
+        <File path="/home/jam/Downloads/kikad/solution/code_project/gowin/fpga_project/src/msg_composer.vhd" type="vhdl"/>
+        <File path="/home/jam/Downloads/kikad/solution/code_project/gowin/fpga_project/src/msg_interpreter.vhd" type="vhdl"/>
+        <File path="/home/jam/Downloads/kikad/solution/code_project/gowin/fpga_project/src/msg_separator.vhd" type="vhdl"/>
+        <File path="/home/jam/Downloads/kikad/solution/code_project/gowin/fpga_project/src/sender_modul.vhd" type="vhdl"/>
+        <File path="/home/jam/Downloads/kikad/solution/code_project/gowin/fpga_project/src/serial_reciever.vhd" type="vhdl"/>
+        <File path="/home/jam/Downloads/kikad/solution/code_project/gowin/fpga_project/src/serial_sender.vhd" type="vhdl"/>
+        <File path="/home/jam/Downloads/kikad/solution/code_project/gowin/fpga_project/src/state_logic.vhd" type="vhdl"/>
+        <File path="/home/jam/Downloads/kikad/solution/code_project/gowin/fpga_project/src/top.vhd" type="vhdl"/>
+    </FileList>
+    <OptionList>
+        <Option type="disable_insert_pad" value="0"/>
+        <Option type="global_freq" value="50.000"/>
+        <Option type="looplimit" value="2000"/>
+        <Option type="output_file" value="/home/jam/Downloads/kikad/solution/code_project/gowin/fpga_project/impl/gwsynthesis/fpga_project.vg"/>
+        <Option type="print_all_synthesis_warning" value="0"/>
+        <Option type="ram_rw_check" value="0"/>
+        <Option type="top_module" value="TOP"/>
+        <Option type="vcc" value="1.2"/>
+        <Option type="vccx" value="3.3"/>
+        <Option type="verilog_language" value="verilog-2001"/>
+        <Option type="vhdl_language" value="vhdl-1993"/>
+    </OptionList>
+</Project>

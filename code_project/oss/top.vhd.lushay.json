@@ -1,0 +1,9 @@
+ {
+    "name": "top",
+    "includedFiles": "all",
+    "top": "TOP",
+    "constraintsFile": "top.cst",
+    "programMode": "flash",
+    "board": "tangnano1k",
+    "skipCstChecking": false
+}

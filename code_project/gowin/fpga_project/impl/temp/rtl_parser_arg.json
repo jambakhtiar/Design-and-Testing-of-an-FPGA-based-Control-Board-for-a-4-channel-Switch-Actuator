@@ -1,0 +1,58 @@
+{
+ "Device" : "GW1NZ-1",
+ "Files" : [
+  {
+   "Library" : "work",
+   "Path" : "/home/jam/Downloads/kikad/solution/code_project/gowin/fpga_project/src/crc_generator.vhd",
+   "Type" : "vhdl"
+  },
+  {
+   "Library" : "work",
+   "Path" : "/home/jam/Downloads/kikad/solution/code_project/gowin/fpga_project/src/msg_composer.vhd",
+   "Type" : "vhdl"
+  },
+  {
+   "Library" : "work",
+   "Path" : "/home/jam/Downloads/kikad/solution/code_project/gowin/fpga_project/src/msg_interpreter.vhd",
+   "Type" : "vhdl"
+  },
+  {
+   "Library" : "work",
+   "Path" : "/home/jam/Downloads/kikad/solution/code_project/gowin/fpga_project/src/msg_separator.vhd",
+   "Type" : "vhdl"
+  },
+  {
+   "Library" : "work",
+   "Path" : "/home/jam/Downloads/kikad/solution/code_project/gowin/fpga_project/src/sender_modul.vhd",
+   "Type" : "vhdl"
+  },
+  {
+   "Library" : "work",
+   "Path" : "/home/jam/Downloads/kikad/solution/code_project/gowin/fpga_project/src/serial_reciever.vhd",
+   "Type" : "vhdl"
+  },
+  {
+   "Library" : "work",
+   "Path" : "/home/jam/Downloads/kikad/solution/code_project/gowin/fpga_project/src/serial_sender.vhd",
+   "Type" : "vhdl"
+  },
+  {
+   "Library" : "work",
+   "Path" : "/home/jam/Downloads/kikad/solution/code_project/gowin/fpga_project/src/state_logic.vhd",
+   "Type" : "vhdl"
+  },
+  {
+   "Library" : "work",
+   "Path" : "/home/jam/Downloads/kikad/solution/code_project/gowin/fpga_project/src/top.vhd",
+   "Type" : "vhdl"
+  }
+ ],
+ "IncludePath" : [
+
+ ],
+ "LoopLimit" : 2000,
+ "ResultFile" : "/home/jam/Downloads/kikad/solution/code_project/gowin/fpga_project/impl/temp/rtl_parser.result",
+ "Top" : "TOP",
+ "VerilogStd" : "verilog_2001",
+ "VhdlStd" : "vhdl_93"
+}

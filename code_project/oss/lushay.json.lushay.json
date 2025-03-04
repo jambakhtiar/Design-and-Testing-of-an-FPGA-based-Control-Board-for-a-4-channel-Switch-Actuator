@@ -1,0 +1,14 @@
+{
+    "ghdl": {
+      "analyze": [
+        "src/**/*.vhdl"
+      ],
+      "elaborate": "top_entity",
+      "run": {
+        "ghdl": {
+          "wave": "wave.ghw"
+        }
+      }
+    }
+  }
+  
